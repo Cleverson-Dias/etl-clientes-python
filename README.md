@@ -1,18 +1,32 @@
-# Projeto ETL – Dados de Clientes (Extração)
+Projeto ETL – Dados de Clientes
 
-Este projeto representa a etapa inicial de um processo de **ETL (Extract, Transform, Load)**, desenvolvido com o objetivo de praticar conceitos fundamentais de engenharia e análise de dados.
+Este projeto simula um fluxo simples de ETL (Extract, Transform, Load) utilizando dados de clientes, com o objetivo de praticar manipulação de dados, aplicação de regras de negócio e integração com APIs externas em Python.
 
-O desenvolvimento deste projeto faz parte da minha **transição de carreira para a área de tecnologia**, onde venho me dedicando ao aprendizado de Python, manipulação de dados e boas práticas de organização de código.
+O script realiza a extração de dados simulados, filtra clientes ativos, aplica critérios de score mínimo, valida registros por meio de uma API pública e gera campanhas de marketing, podendo utilizar IA ou regras determinísticas.
 
----
+Projeto desenvolvido como parte da minha transição de carreira para a área de tecnologia, com foco em análise e engenharia de dados.
 
-##  O que este script faz?
-- Simula a extração de dados brutos de clientes, contendo informações como **nome, status e score**.
-- Utiliza a biblioteca **Pandas** para organizar esses dados em um **DataFrame**, facilitando a visualização e o processamento nas próximas etapas do ETL.
+Funcionalidades
 
----
+Extração de dados simulados de clientes
 
-##  Tecnologias Utilizadas
-- **Python 3.13.9**
-- **Pandas**
-- **Git** para controle de versão e acompanhamento da evolução do projeto
+Transformação e filtragem com Pandas
+
+Aplicação de regras de negócio (status e score)
+
+Validação de clientes via API externa
+
+Geração de campanhas de marketing
+
+Tecnologias Utilizadas
+
+Python 3.13 · Pandas · Requests · Google Generative AI · Dotenv · Git
+
+Execução
+pip install pandas requests python-dotenv google-generativeai
+python etl_clientes.py
+
+Autor
+
+Cleverson Dias
+Estudante de Análise e Desenvolvimento de Sistemas

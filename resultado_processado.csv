@@ -1,0 +1,37 @@
+nome,pontuacao,texto_para_analisar,analise_ia
+Michele Pereira,900,Excelente desempenho na apresentação,"❌ Erro na IA após todas as tentativas: 400 API key not valid. Please pass a valid API key. [reason: ""API_KEY_INVALID""
+domain: ""googleapis.com""
+metadata {
+  key: ""service""
+  value: ""generativelanguage.googleapis.com""
+}
+, locale: ""en-US""
+message: ""API key not valid. Please pass a valid API key.""
+]"
+Marcella Ribeiro,720,Boa participação nos projetos,"❌ Erro na IA após todas as tentativas: 400 API key not valid. Please pass a valid API key. [reason: ""API_KEY_INVALID""
+domain: ""googleapis.com""
+metadata {
+  key: ""service""
+  value: ""generativelanguage.googleapis.com""
+}
+, locale: ""en-US""
+message: ""API key not valid. Please pass a valid API key.""
+]"
+Guilherme Santos,780,Trabalho consistente e dedicado,"❌ Erro na IA após todas as tentativas: 400 API key not valid. Please pass a valid API key. [reason: ""API_KEY_INVALID""
+domain: ""googleapis.com""
+metadata {
+  key: ""service""
+  value: ""generativelanguage.googleapis.com""
+}
+, locale: ""en-US""
+message: ""API key not valid. Please pass a valid API key.""
+]"
+Joice Mendes,890,Liderança exemplar na equipe,"❌ Erro na IA após todas as tentativas: 400 API key not valid. Please pass a valid API key. [reason: ""API_KEY_INVALID""
+domain: ""googleapis.com""
+metadata {
+  key: ""service""
+  value: ""generativelanguage.googleapis.com""
+}
+, locale: ""en-US""
+message: ""API key not valid. Please pass a valid API key.""
+]"
