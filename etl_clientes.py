@@ -16,11 +16,11 @@ load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not API_KEY:
-    raise ValueError("❌ ERRO: A chave GOOGLE_API_KEY não foi encontrada no arquivo .env")
+    raise ValueError(" ERRO: A chave GOOGLE_API_KEY não foi encontrada no arquivo .env")
 
 client = genai.Client(api_key=API_KEY)
 
-print("✅ Chave de API carregada e cliente Gemini configurado!")
+print(" Chave de API carregada e cliente Gemini configurado!")
 
 
 # =========================
@@ -115,7 +115,21 @@ if not df_final.empty:
     print("\nCAMPANHA GERADA COM SUCESSO:")
     print(df_final[["Nome", "Campanha_IA"]])
 else:
-    print("\n⚠️ Nenhum cliente válido para campanha.")
+    print("\n Nenhum cliente válido para campanha.")
 
-
+# =========================
+# PARTE 3: LOAD (CARGA)
+# =========================
+if not df_final.empty:
+    print("\nIniciando a carga dos dados (LOAD)...")
+    
+    # Opção A: Salvar em CSV (padrão para desenvolvedores)
+    df_final.to_csv("campanha_marketing.csv", index=False, encoding="utf-8-sig")
+    
+    # Opção B: Salvar em Excel (padrão para negócios/Marketing)
+    df_final.to_excel("campanha_marketing.xlsx", index=False)
+    
+    print(" Sucesso: Arquivos 'campanha_marketing.csv' e '.xlsx' gerados na pasta do projeto!")
+else:
+    print("\n Carga cancelada: Não há dados para salvar.")
 
